@@ -1,8 +1,11 @@
 #!/bin/bash
 
 if [ $1 = "-git" ]; then
-	echo "Will add to gitgnore"
-	echo "*.swp" >> ./.gitignore
+	for file_types in "$@"
+	do
+		echo "Will add to gitgnore"
+		echo "*$file_types" >> ./.gitignore
+	done	
 fi  
 if [ -d "../rmvdFiles" ]; then
        	echo "the dir already exists"
