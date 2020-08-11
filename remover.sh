@@ -10,13 +10,14 @@ else
 	mkdir ../rmvdFiles
 	echo "Dir was succesfully created"
 fi
-filePath=$(pwd)
-filePath="${filePath}/*$2" 
-for f in $filePath
-do 
-  mv $f ../rmvdFiles  
-done  
-
-
+for i  in "$@"
+do
+	filePath=$(pwd)
+	filePath="${filePath}/*$i" 
+	for f in $filePath
+	do 
+	  mv $f ../rmvdFiles  
+	done  
+done
 #SHELL
 
