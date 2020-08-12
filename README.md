@@ -66,9 +66,9 @@ ENJOY YOUR MORE SAFER COMMITS:wink:
 
 ## Future Features:
 
--Directory moving support
--Removing the -git file bug
+- Directory moving support
+- Removing the -git file bug
 
-<b> SO STAY TUNED :sparkle:</b>
+<b> SO STAY TUNED :sparkles:</b>
 
 <p align="center"> Made with ♥ by <a href="https://github.com/iuri-pdista"> Iuri Corrêa </a></p>
