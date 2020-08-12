@@ -21,12 +21,16 @@ function removeFile() {
 	fi
 	for i  in "$@"
 	do
-		filePath=$(pwd)
-		filePath="${filePath}/*$i" 
-		for f in $filePath
-		do 
-		mv $f ../rmvdFiles  
-		done 
+		if [ $@ = "-git" ]; then
+			continue
+		else
+			filePath=$(pwd)
+			filePath="${filePath}/*$i" 
+			for f in $filePath
+			do 
+			mv $f ../rmvdFiles  
+			done
+		fi       	
 	done
 }
 
