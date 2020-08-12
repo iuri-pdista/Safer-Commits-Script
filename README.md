@@ -57,7 +57,10 @@ source ./.my_custom_commands.sh
 ```bash
 # And then you run it with
 chmod +7 ./.my_custom_commands.sh
-removeFile [-git OR -jrm] [the] [file] [extensions] [you] [want] [to] [remove] 
+removeFiles [-git OR -jrm] [the] [file] [extensions] [you] [want] [to] [remove] 
+
+# And then for getting the files back, in your original directory run
+resetFiles
 ```
 
 ### Third
