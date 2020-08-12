@@ -35,7 +35,8 @@ function removeFile() {
 }
 
 function resetFiles(){
-	current_path=$pwd
+	current_path=$(pwd)
+	echo "Moving files back to $current_path"
 	cd ../rmvdFiles
 	for FILE in *
 	do
