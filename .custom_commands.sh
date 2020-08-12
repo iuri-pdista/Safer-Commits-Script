@@ -21,7 +21,7 @@ function removeFile() {
 	fi
 	for i  in "$@"
 	do
-		if [[ $i == "-git" || $i == "-jrm" ]]; then
+		if [[ ($i == "-git") || ($i == "-jrm") ]]; then
 			continue
 		else
 			filePath=$(pwd)
