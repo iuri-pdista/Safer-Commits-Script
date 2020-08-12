@@ -1,5 +1,5 @@
 #!/bin/bash
-function removeFile() {
+function removeFiles() {
 	if [ $1 = "-git" ]; then
 		for file_types in "$@"
 		do
