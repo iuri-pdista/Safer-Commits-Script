@@ -62,7 +62,7 @@ removeFile [-git OR -jrm] [the] [file] [extensions] [you] [want] [to] [remove]
 
 ### Third
 
-ENJOY YOUR MORE SAFER COMMITS:wink:
+ENJOY YOUR COMMITS SAFER THEN EVER:wink:
 
 ## Future Features:
 
