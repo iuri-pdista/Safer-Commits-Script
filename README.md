@@ -70,3 +70,5 @@ ENJOY YOUR MORE SAFER COMMITS:wink:
 -Removing the -git file bug
 
 <b> SO STAY TUNED :sparkle:</b>
+
+<p align="center"> Made with ♥ by <a href="https://github.com/iuri-pdista"> Iuri Corrêa </a></p>
