@@ -1,6 +1,11 @@
 #!/bin/bash
 function removeFiles() {
+	for alo in "$@"
+	do
+		echo "$alo"
+	done
 	if [ $2 = "-d " ]; then
+		echo "Entro"
 		if [ $1 = "-git" ]; then
 			for file_types in "$@"
 			do
@@ -12,7 +17,7 @@ function removeFiles() {
 			echo "Starting clean..."
 		else
 			echo "Invalid option ;-;"
-		fi  
+		fi
 		
 	else
 		if [ $1 = "-git" ]; then
